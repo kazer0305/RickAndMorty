@@ -1,0 +1,80 @@
+13:23:20.096 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:23:21.242 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:23:21.516 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/115
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:23:22.045 [main] DEBUG com.intuit.karate - response time in milliseconds: 526
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3047
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; hit
+1 < Content-Length: 553
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 18:23:21 GMT
+1 < Etag: W/"229-rBybp3h9s0BBCXmhLDicgH1kmT8"
+1 < Expires: Sat, 09 Nov 2024 17:32:34 GMT
+1 < Netlify-Vary: query
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01JC1BF1CEEQD5P46B38C572MR
+1 < X-Powered-By: Express
+{"id":115,"name":"Ethan","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"Earth (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"location":{"name":"Earth (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"image":"https://rickandmortyapi.com/api/character/avatar/115.jpeg","episode":["https://rickandmortyapi.com/api/episode/16","https://rickandmortyapi.com/api/episode/26"],"url":"https://rickandmortyapi.com/api/character/115","created":"2017-12-26T16:01:50.939Z"}
+
+13:23:22.092 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:23:22.097 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/115897
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:23:22.609 [main] DEBUG com.intuit.karate - response time in milliseconds: 511
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Age: 0
+1 < Cache-Status: "Netlify Edge"; fwd=miss
+1 < Content-Length: 31
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 18:23:22 GMT
+1 < Etag: W/"1f-t9l5xVmJZaPHJIukjZQ7Mw4gpG8"
+1 < Netlify-Vary: query
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01JC1BF1PPKR0RTFY1197Y3T0N
+1 < X-Powered-By: Express
+{"error":"Character not found"}
+
+13:23:22.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:23:22.623 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/115
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:23:23.141 [main] DEBUG com.intuit.karate - response time in milliseconds: 517
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; fwd=miss
+1 < Content-Length: 553
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 18:23:23 GMT
+1 < Etag: W/"229-rBybp3h9s0BBCXmhLDicgH1kmT8"
+1 < Expires: Sat, 09 Nov 2024 18:23:23 GMT
+1 < Netlify-Vary: query
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01JC1BF26NTGQQVTRC0EWZCH2D
+1 < X-Powered-By: Express
+{"id":115,"name":"Ethan","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"Earth (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"location":{"name":"Earth (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"image":"https://rickandmortyapi.com/api/character/avatar/115.jpeg","episode":["https://rickandmortyapi.com/api/episode/16","https://rickandmortyapi.com/api/episode/26"],"url":"https://rickandmortyapi.com/api/character/115","created":"2017-12-26T16:01:50.939Z"}
+
